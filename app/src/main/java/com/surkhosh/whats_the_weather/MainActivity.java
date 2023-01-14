@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
             DownloadTask task = new DownloadTask();
             String encodedCityName = URLEncoder.encode(editText.getText().toString(), "UTF-8");
 
-            task.execute("https://api.openweathermap.org/data/2.5/weather?q=" + encodedCityName + "&appid=231e51ea1a1ed508ca718dfc68f96230");
+            task.execute("https://api.openweathermap.org/data/2.5/weather?q=" + encodedCityName + "&appid=*************************");
 
 
 
